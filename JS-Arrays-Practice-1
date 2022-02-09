@@ -36,7 +36,8 @@
         // filter takes "undesired" parts out and keeps only what it considers interesting
 
         //04
-        
+
+        // link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
         }
   </script>
   </body>
