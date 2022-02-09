@@ -10,9 +10,34 @@
   <body>
 	<script>
         // 01
-        let arraySize = (number,'letter') [
-            arraySize[?] = 
-        ]
-        </script>
+        function createNewArray(arraySize, valueToFill) {
+          let anArray = []
+          for (let i = 0; i < arraySize; i++)
+            anArray.push(valueToFill)
+          return anArray
+        }
+        createNewArray(3, 'a')
+        // The for loop adds the new parts to the array
+        // for each time it looped it added one of the things that needed to be added to the array
+        
+        // 02
+        function reverseArray (numbers) {
+            numbers.reverse ()
+            return numbers
+        }
+        // the reverse statement reverses the order for it and the return makes the value extractable
+
+        // 03
+        let array = [0, 1, false, 2, undefined, '', 3, null]
+        array.filter (undesireableArray)
+        function undesireableArray (cleanArray) {
+          return cleanArray
+        // filter puts the array through the function
+        // filter takes "undesired" parts out and keeps only what it considers interesting
+
+        //04
+        
+        }
+  </script>
   </body>
 </html>
